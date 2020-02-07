@@ -36,7 +36,9 @@
                 android:soundEffectsEnabled="true"
                 android:tag="1"
                 android:text="1"
-                android:textColor="#000000" />
+                android:textColor="#000000"
+                android:textSize="24sp"
+                android:textStyle="normal" />
 
             <Button
                 android:id="@+id/button2"
@@ -52,7 +54,9 @@
                 android:soundEffectsEnabled="true"
                 android:tag="2"
                 android:text="2"
-                android:textColor="#000000" />
+                android:textColor="#000000"
+                android:textSize="24sp"
+                android:textStyle="normal" />
 
             <Button
                 android:id="@+id/button3"
@@ -68,7 +72,9 @@
                 android:soundEffectsEnabled="true"
                 android:tag="3"
                 android:text="3"
-                android:textColor="#000000" />
+                android:textColor="#000000"
+                android:textSize="24sp"
+                android:textStyle="normal" />
 
             <Button
                 android:id="@+id/button4"
@@ -84,7 +90,9 @@
                 android:soundEffectsEnabled="true"
                 android:tag="+"
                 android:text="+"
-                android:textColor="#000000" />
+                android:textColor="#000000"
+                android:textSize="24sp"
+                android:textStyle="normal" />
 
         </LinearLayout>
 
@@ -107,7 +115,9 @@
                 android:soundEffectsEnabled="true"
                 android:tag="4"
                 android:text="4"
-                android:textColor="#000000" />
+                android:textColor="#000000"
+                android:textSize="24sp"
+                android:textStyle="normal" />
 
             <Button
                 android:id="@+id/button6"
@@ -122,7 +132,9 @@
                 android:soundEffectsEnabled="true"
                 android:tag="5"
                 android:text="5"
-                android:textColor="#000000" />
+                android:textColor="#000000"
+                android:textSize="24sp"
+                android:textStyle="normal" />
 
             <Button
                 android:id="@+id/button7"
@@ -137,7 +149,9 @@
                 android:soundEffectsEnabled="true"
                 android:tag="6"
                 android:text="6"
-                android:textColor="#000000" />
+                android:textColor="#000000"
+                android:textSize="24sp"
+                android:textStyle="normal" />
 
             <Button
                 android:id="@+id/button8"
@@ -152,7 +166,9 @@
                 android:soundEffectsEnabled="true"
                 android:tag="-"
                 android:text="-"
-                android:textColor="#000000" />
+                android:textColor="#000000"
+                android:textSize="24sp"
+                android:textStyle="normal" />
         </LinearLayout>
 
         <LinearLayout
@@ -174,7 +190,9 @@
                 android:soundEffectsEnabled="true"
                 android:tag="7"
                 android:text="7"
-                android:textColor="#000000" />
+                android:textColor="#000000"
+                android:textSize="24sp"
+                android:textStyle="normal" />
 
             <Button
                 android:id="@+id/button10"
@@ -189,7 +207,9 @@
                 android:soundEffectsEnabled="true"
                 android:tag="8"
                 android:text="8"
-                android:textColor="#000000" />
+                android:textColor="#000000"
+                android:textSize="24sp"
+                android:textStyle="normal" />
 
             <Button
                 android:id="@+id/button11"
@@ -204,7 +224,9 @@
                 android:soundEffectsEnabled="true"
                 android:tag="9"
                 android:text="9"
-                android:textColor="#000000" />
+                android:textColor="#000000"
+                android:textSize="24sp"
+                android:textStyle="normal" />
 
             <Button
                 android:id="@+id/button12"
@@ -219,7 +241,9 @@
                 android:soundEffectsEnabled="true"
                 android:tag="*"
                 android:text="*"
-                android:textColor="#000000" />
+                android:textColor="#000000"
+                android:textSize="24sp"
+                android:textStyle="normal" />
         </LinearLayout>
 
         <LinearLayout
@@ -241,7 +265,9 @@
                 android:soundEffectsEnabled="true"
                 android:tag="0"
                 android:text="0"
-                android:textColor="#000000" />
+                android:textColor="#000000"
+                android:textSize="24sp"
+                android:textStyle="normal" />
 
             <Button
                 android:id="@+id/button14"
@@ -256,7 +282,9 @@
                 android:soundEffectsEnabled="true"
                 android:tag="."
                 android:text="."
-                android:textColor="#000000" />
+                android:textColor="#000000"
+                android:textSize="24sp"
+                android:textStyle="normal" />
 
             <Button
                 android:id="@+id/button23"
@@ -271,7 +299,9 @@
                 android:soundEffectsEnabled="true"
                 android:tag="s"
                 android:text="SQRT"
-                android:textColor="#000000" />
+                android:textColor="#000000"
+                android:textSize="24sp"
+                android:textStyle="normal" />
 
             <Button
                 android:id="@+id/button16"
@@ -286,7 +316,9 @@
                 android:soundEffectsEnabled="true"
                 android:tag="/"
                 android:text="/"
-                android:textColor="#000000" />
+                android:textColor="#000000"
+                android:textSize="24sp"
+                android:textStyle="normal" />
         </LinearLayout>
 
         <LinearLayout
@@ -308,7 +340,9 @@
                 android:soundEffectsEnabled="true"
                 android:tag="mr"
                 android:text="MR"
-                android:textColor="#000000" />
+                android:textColor="#000000"
+                android:textSize="24sp"
+                android:textStyle="normal" />
 
             <Button
                 android:id="@+id/button19"
@@ -323,7 +357,9 @@
                 android:soundEffectsEnabled="true"
                 android:tag="mc"
                 android:text="MC"
-                android:textColor="#000000" />
+                android:textColor="#000000"
+                android:textSize="24sp"
+                android:textStyle="normal" />
 
             <Button
                 android:id="@+id/button15"
@@ -338,7 +374,9 @@
                 android:soundEffectsEnabled="true"
                 android:tag="d"
                 android:text="DEL"
-                android:textColor="#000000" />
+                android:textColor="#000000"
+                android:textSize="24sp"
+                android:textStyle="normal" />
 
             <Button
                 android:id="@+id/button20"
@@ -353,7 +391,9 @@
                 android:soundEffectsEnabled="true"
                 android:tag="="
                 android:text="="
-                android:textColor="#000000" />
+                android:textColor="#000000"
+                android:textSize="24sp"
+                android:textStyle="normal" />
 
         </LinearLayout>
 
@@ -376,7 +416,9 @@
                 android:soundEffectsEnabled="true"
                 android:tag="mp"
                 android:text="M+"
-                android:textColor="#000000" />
+                android:textColor="#000000"
+                android:textSize="24sp"
+                android:textStyle="normal" />
 
             <Button
                 android:id="@+id/button22"
@@ -391,7 +433,9 @@
                 android:soundEffectsEnabled="true"
                 android:tag="mm"
                 android:text="M-"
-                android:textColor="#000000" />
+                android:textColor="#000000"
+                android:textSize="24sp"
+                android:textStyle="normal" />
 
             <Button
                 android:id="@+id/button17"
@@ -406,7 +450,9 @@
                 android:soundEffectsEnabled="true"
                 android:tag="c"
                 android:text="CLR"
-                android:textColor="#000000" />
+                android:textColor="#000000"
+                android:textSize="24sp"
+                android:textStyle="normal" />
 
             <Button
                 android:id="@+id/button25"
@@ -420,6 +466,8 @@
                 android:soundEffectsEnabled="true"
                 android:text="blank"
                 android:textColor="#000000"
+                android:textSize="24sp"
+                android:textStyle="normal"
                 android:visibility="invisible" />
 
         </LinearLayout>
@@ -472,7 +520,7 @@
         android:layout_width="0dp"
         android:layout_height="48dp"
         android:layout_marginStart="16dp"
-        android:layout_marginTop="64dp"
+        android:layout_marginTop="32dp"
         android:layout_marginEnd="64dp"
         android:textAlignment="textEnd"
         android:textColor="#FFECB3"
