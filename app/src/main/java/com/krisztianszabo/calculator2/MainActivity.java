@@ -203,23 +203,11 @@ public class MainActivity extends AppCompatActivity {
                     }
                 }
                 break;
+
+            // Square root function
             case "s":
-                DecimalFormat parser = new DecimalFormat();
-                parser.setParseBigDecimal(true);
-
-                try {
-                    BigDecimal value = (BigDecimal) parser.parse(currentValue);
-
-                    if (value.compareTo(BigDecimal.ZERO) < 0) {
-                        currentValueView.setText("ERR");
-                        break;
-                    }
-
-                    currentValueView.setText(cleanNumber(sqrtAlgorithm(value, 16).toString()));
-                    isInResultState = true;
-                } catch (ParseException e) {
-                    // should never happen
-                }
+                currentValueView.setText(sqrt(currentValue));
+                isInResultState = true;
                 break;
         }
     }
@@ -302,6 +290,9 @@ public class MainActivity extends AppCompatActivity {
     private String cleanNumber(String result) {
         if (result.matches("[0-9]+.[1-9]*0+")) {
             result = result.replaceAll("0+$", "");
+            if (result.endsWith(".")) {
+                result = result.substring(0, result.length() - 1);
+            }
         }
         return result;
     }
